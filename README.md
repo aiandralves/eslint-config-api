@@ -12,11 +12,13 @@
 
 Install dependencies:
 ```
-npm i -D eslint @aiandra/eslint-config
+npm i -D @aiandralves/eslint-config
 ```
 Inside `.eslintrc.json`
 ```
 {
-  "extends": "@aiandra/eslint-config/node"
+    "extends": [
+        "@aiandralves/eslint-config/node"
+    ]
 }
 ```
