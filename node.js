@@ -3,16 +3,18 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    extends: ["standard", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+    extends: ["standard"],
     parser: "@typescript-eslint/parser",
     root: true,
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
     },
-    plugins: ["@typescript-eslint/eslint-plugin"],
-    ignorePatterns: ["node.js"],
+    plugins: ["@typescript-eslint"],
     rules: {
         "max-len": ["error", { code: 120 }],
+        "semi": "off",
+        "quotes": [ "error", "double"],
+        "indent": ["error", 4],
     },
 }
