@@ -5,25 +5,14 @@ module.exports = {
     },
     extends: ["standard", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
     parser: "@typescript-eslint/parser",
+    root: true,
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
     },
-    plugins: ["@typescript-eslint"],
+    plugins: ["@typescript-eslint/eslint-plugin"],
+    ignorePatterns: ["node.js"],
     rules: {
-        "prettier/prettier": [
-            "error",
-            {
-                printWidth: 120,
-                tabWidth: 4,
-                singleQuote: false,
-                trailingComma: "all",
-            },
-        ],
-    },
-    settings: {
-        "import/parsers": {
-            [require.resolve("@typescript-eslint/parser")]: [".ts", ".tsx", ".d.ts"],
-        },
+        "max-len": ["error", { code: 120 }],
     },
 }
