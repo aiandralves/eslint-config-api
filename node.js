@@ -13,8 +13,10 @@ module.exports = {
     plugins: ["@typescript-eslint"],
     rules: {
         "max-len": ["error", { code: 120 }],
-        "semi": "off",
+        "semi": ["error", "always"],
         "quotes": [ "error", "double"],
         "indent": ["error", 4],
+        "arrowParens": "always",
+        "trailingComma": 'all',
     },
 }
