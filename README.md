@@ -11,7 +11,7 @@
 Install dependencies:
 
 ```
-npm i -D @aiandralves/eslint-config eslint@8.56.0
+npm i -D @aiandralves/eslint-config
 ```
 
 Inside `.eslintrc.json`
