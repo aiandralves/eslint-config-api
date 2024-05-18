@@ -3,7 +3,6 @@
 ## Whats included?
 
 -   Standard config base;
--   JSX a11y plugin;
 -   Prettier;
 
 ## Setup
