@@ -24,3 +24,13 @@ Inside `.eslintrc.json`
     ]
 }
 ```
+
+### Angular
+
+```
+{
+    "extends": [
+        "@aiandralves/eslint-config/angular"
+    ]
+}
+```
