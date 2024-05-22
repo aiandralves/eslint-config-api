@@ -3,9 +3,10 @@
 ## Whats included?
 
 -   Standard config base;
+-   Angular Eslint;
 -   Prettier;
 
-## Setup
+## 🚀 Setup
 
 Install dependencies:
 
@@ -34,3 +35,11 @@ Inside `.eslintrc.json`
     ]
 }
 ```
+
+### 🧩 Version compatibility
+
+| Package       | Version          |
+| ------------- | ---------------- |
+| **Angular**   | >= 17.3.0        |
+| **Eslint**    | >= 8.0 <= 8.57.0 |
+| **Typescrit** | >= 5.0           |

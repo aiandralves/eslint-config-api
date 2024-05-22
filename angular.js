@@ -38,7 +38,7 @@ module.exports = {
                         style: "kebab-case",
                     },
                 ],
-                semi: "off",
+                semi: ["error", "always"],
                 quotes: ["error", "double"],
                 indent: ["error", 4],
                 "max-len": ["error", 120],
