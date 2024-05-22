@@ -10,7 +10,7 @@
 
 Install dependencies:
 
-```
+```sh
 npm i -D @aiandralves/eslint-config
 ```
 
@@ -18,21 +18,17 @@ Inside `.eslintrc.json`
 
 ### Node.js
 
-```
+```json
 {
-    "extends": [
-        "@aiandralves/eslint-config/node"
-    ]
+    "extends": ["@aiandralves/eslint-config/node"]
 }
 ```
 
 ### Angular
 
-```
+```json
 {
-    "extends": [
-        "@aiandralves/eslint-config/angular"
-    ]
+    "extends": ["@aiandralves/eslint-config/angular"]
 }
 ```
 
