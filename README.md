@@ -32,6 +32,22 @@ Inside `.eslintrc.json`
 }
 ```
 
+### Next
+
+```json
+{
+    "extends": ["@aiandralves/eslint-config/next", "next/core-web-vitals"]
+}
+```
+
+### React
+
+```json
+{
+    "extends": ["@aiandralves/eslint-config/react"]
+}
+```
+
 ### 🧩 Version compatibility
 
 | Package       | Version          |
