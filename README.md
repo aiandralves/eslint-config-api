@@ -11,7 +11,7 @@
 Install dependencies:
 
 ```sh
-npm i -D @aiandralves/eslint-config
+npm i -D @aiandralves/eslint-config@latest
 ```
 
 Inside `.eslintrc.json`
@@ -32,26 +32,10 @@ Inside `.eslintrc.json`
 }
 ```
 
-### Next
-
-```json
-{
-    "extends": ["@aiandralves/eslint-config/next", "next/core-web-vitals"]
-}
-```
-
-### React
-
-```json
-{
-    "extends": ["@aiandralves/eslint-config/react"]
-}
-```
-
 ### 🧩 Version compatibility
 
-| Package       | Version          |
-| ------------- | ---------------- |
-| **Angular**   | >= 17.3.0        |
-| **Eslint**    | >= 8.0 <= 8.57.0 |
-| **Typescrit** | >= 5.0           |
+| Package        | Version          |
+| -------------- | ---------------- |
+| **Angular**    | >= 17.3.0        |
+| **Eslint**     | >= 8.0 <= 8.57.0 |
+| **Typescript** | >= 5.0           |

@@ -1,6 +1,6 @@
 {
     "name": "@aiandralves/eslint-config",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "private": false,
     "description": "ESLint configuration used by Aiandra.",
     "main": "index.js",
@@ -11,7 +11,7 @@
     },
     "peerDependencies": {
         "eslint": "^8.0.0",
-        "typescript": ">=5"
+        "typescript": ">= 5"
     },
     "peerDependenciesMeta": {
         "typescript": {
@@ -19,13 +19,13 @@
         }
     },
     "dependencies": {
-        "@angular-eslint/builder": "17.3.0",
-        "@angular-eslint/eslint-plugin": "17.3.0",
-        "@angular-eslint/eslint-plugin-template": "17.3.0",
-        "@angular-eslint/schematics": "17.3.0",
-        "@angular-eslint/template-parser": "17.3.0",
-        "@typescript-eslint/eslint-plugin": "7.2.0",
-        "@typescript-eslint/parser": "7.2.0",
+        "@angular-eslint/builder": "18.0.1",
+        "@angular-eslint/eslint-plugin": "18.0.1",
+        "@angular-eslint/eslint-plugin-template": "18.0.1",
+        "@angular-eslint/schematics": "18.0.1",
+        "@angular-eslint/template-parser": "18.0.1",
+        "@typescript-eslint/eslint-plugin": "7.14.1",
+        "@typescript-eslint/parser": "7.14.1",
         "eslint": "^8.56.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-config-standard": "^17.1.0",
