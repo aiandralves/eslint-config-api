@@ -34,8 +34,8 @@ Inside `.eslintrc.json`
 
 ### 🧩 Version compatibility
 
-| Package        | Version          |
-| -------------- | ---------------- |
-| **Angular**    | >= 17.3.0        |
-| **Eslint**     | >= 8.0 <= 8.57.0 |
-| **Typescript** | >= 5.0           |
+| Package        | Version           |
+|----------------|-------------------|
+| **Angular**    | >= 17.3.0         |
+| **Eslint**     | >= 9.29 <= 8.56.0 |
+| **Typescript** | >= 5.0            |

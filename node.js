@@ -3,7 +3,14 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    extends: ["standard"],
+    extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/recommended",
+        "plugin:node/recommended",
+        "plugin:promise/recommended",
+        "plugin:prettier/recommended"
+    ],
     parser: "@typescript-eslint/parser",
     root: true,
     parserOptions: {
@@ -17,6 +24,6 @@ module.exports = {
         semi: ["error", "always"],
         quotes: ["error", "double"],
         indent: ["error", 4],
-        "no-useless-constructor": "off",
+        "no-useless-constructor": "off"
     },
 };
