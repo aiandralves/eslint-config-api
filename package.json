@@ -18,6 +18,11 @@
             "optional": true
         }
     },
+    "type": "module",
+    "exports": {
+        "./node": "./node.js",
+        "./angular": "./angular.js"
+    },
     "dependencies": {
         "@angular-eslint/builder": "20.1.1",
         "@angular-eslint/eslint-plugin": "20.1.1",
@@ -26,14 +31,15 @@
         "@angular-eslint/template-parser": "20.1.1",
         "@typescript-eslint/eslint-plugin": "8.35.0",
         "@typescript-eslint/parser": "8.35.0",
-        "eslint": "9.29.0",
-        "eslint-config-prettier": "10.1.5",
+        "eslint": "9.18.0",
+        "eslint-config-prettier": "10.0.1",
         "eslint-plugin-import": "2.32.0",
         "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-prettier": "5.5.0",
+        "eslint-plugin-prettier": "5.2.2",
         "eslint-plugin-promise": "7.2.1",
         "eslint-plugin-unused-imports": "4.1.4",
-        "prettier": "3.6.0"
+        "typescript-eslint": "8.20.0",
+        "prettier": "3.4.2"
     },
     "author": "Aiandra Alves"
 }

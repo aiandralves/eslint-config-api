@@ -1,29 +1,30 @@
-module.exports = {
-    env: {
-        es2021: true,
-        node: true,
+import tseslint from "@typescript-eslint/eslint-plugin";
+import parser from "@typescript-eslint/parser";
+
+/** @type {import("eslint").FlatConfig[]} */
+export default [
+    {
+        files: ["**/*.ts"],
+        languageOptions: {
+            parser,
+            parserOptions: {
+                ecmaVersion: "latest",
+                sourceType: "module",
+            },
+            globals: {
+                console: "readonly",
+            },
+        },
+        plugins: {
+            "@typescript-eslint": tseslint,
+        },
+        rules: {
+            "max-len": ["error", { code: 120 }],
+            "space-before-function-paren": ["error", "always"],
+            semi: ["error", "always"],
+            quotes: ["error", "double"],
+            indent: ["error", 4],
+            "no-useless-constructor": "off",
+        },
     },
-    extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:import/recommended",
-        "plugin:node/recommended",
-        "plugin:promise/recommended",
-        "plugin:prettier/recommended"
-    ],
-    parser: "@typescript-eslint/parser",
-    root: true,
-    parserOptions: {
-        ecmaVersion: "latest",
-        sourceType: "module",
-    },
-    plugins: ["@typescript-eslint"],
-    rules: {
-        "max-len": ["error", { code: 120 }],
-        "space-before-function-paren": ["error", "always"],
-        semi: ["error", "always"],
-        quotes: ["error", "double"],
-        indent: ["error", 4],
-        "no-useless-constructor": "off"
-    },
-};
+];
